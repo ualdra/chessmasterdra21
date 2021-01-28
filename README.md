@@ -7,6 +7,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf)
 * **Aaron Blanco** - [https://github.com/aaronblanco](https://github.com/aaronblanco
 * **Claudio Rodriguez Lopez** - [https://github.com/Claudio1812]
+* **Juan José Pallarés Sánchez** - [https://github.com/Palla551] (https://github.com/Palla551)
 * **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
 * **Felipe A. Cano Galera** -  [https://github.com/fcg299](https://github.com/fcg299).
 
