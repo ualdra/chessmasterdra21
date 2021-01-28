@@ -10,8 +10,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Juan José Pallarés Sánchez** - [https://github.com/Palla551] (https://github.com/Palla551)
 * **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
 * **Felipe A. Cano Galera** -  [https://github.com/fcg299](https://github.com/fcg299).
-
-# Disclaimer
+* **Tesifón Robles Marín** -  [https://github.com/trm187](https://github.com/trm187).
 
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
 
