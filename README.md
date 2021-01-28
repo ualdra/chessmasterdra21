@@ -10,6 +10,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Juan José Pallarés Sánchez** - [https://github.com/Palla551] (https://github.com/Palla551)
 * **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
 * **Felipe A. Cano Galera** -  [https://github.com/fcg299](https://github.com/fcg299).
+* **Ousama Dahbi Sebbaghi** - [https://github.com/ods883](https://github.com/ods883).
 
 # Disclaimer
 
