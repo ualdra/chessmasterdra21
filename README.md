@@ -8,6 +8,8 @@ Collective project where the knowledge acquired in the subject will be put into 
 
 * **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf).
 * **Claudio Rodriguez Lopez** - [https://github.com/Claudio1812]
+* **Ousama Dahbi Sebbaghi** -  [https://github.com/ods883](https://github.com/ods883).
+
 
 
 # Disclaimer
