@@ -9,6 +9,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Claudio Rodriguez Lopez** - [https://github.com/Claudio1812](https://github.com/Claudio1812)
 * **Juan José Pallarés Sánchez** - [https://github.com/Palla551](https://github.com/Palla551)
 * **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
+* **Miguel Ángel Puertas Sánchez** - [GitHub Profile](https://github.com/luxor-g)
 * **Gabriel Viorel Vladescu** - [https://github.com/Gabriel8991](https://github.com/Gabriel8991)
 * **Felipe A. Cano Galera** -  [https://github.com/fcg299](https://github.com/fcg299)
 * **Tesifón Robles Marín** -  [https://github.com/trm187](https://github.com/trm187)
