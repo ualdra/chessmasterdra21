@@ -7,11 +7,6 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf)
 * **Aaron Blanco** - [https://github.com/aaronblanco](https://github.com/aaronblanco
 * **Claudio Rodriguez Lopez** - [https://github.com/Claudio1812]
-<<<<<<< HEAD
-* **Ousama Dahbi Sebbaghi** -  [https://github.com/ods883](https://github.com/ods883).
-
-
-=======
 * **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
 >>>>>>> 14396390adf46d07a6a342ebfb59d6331184b403
 
