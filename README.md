@@ -3,7 +3,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 
 ## Collaborators
 * **Manel Mena** -  [https://github.com/manelme](https://github.com/manelme).
-
+* **Pablo Almansa Torres** -  [https://github.com/pakar12](https://github.com/pakar12).
 # Disclaimer
 
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
