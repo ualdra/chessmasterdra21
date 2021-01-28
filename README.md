@@ -3,7 +3,12 @@ Collective project where the knowledge acquired in the subject will be put into 
 
 ## Collaborators
 * **Manel Mena** -  [https://github.com/manelme](https://github.com/manelme).
+<<<<<<< HEAD
 * **Aaron Blanco** - [https://github.com/aaronblanco](https://github.com/aaronblanco)
+=======
+* **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf).
+
+>>>>>>> 98d25faff34a72956f2f0ffe9a6129781a3347bb
 # Disclaimer
 
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
