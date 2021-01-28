@@ -3,6 +3,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 
 ## Collaborators
 * **Manel Mena** -  [https://github.com/manelme](https://github.com/manelme).
+* **Ramon Ramos** -  [https://github.com/rtyui5](https://github.com/rtyui5)
 
 # Disclaimer
 
