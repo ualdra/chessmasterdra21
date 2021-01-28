@@ -7,8 +7,9 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf)
 * **Aaron Blanco** - [https://github.com/aaronblanco](https://github.com/aaronblanco
 * **Claudio Rodriguez Lopez** - [https://github.com/Claudio1812]
+* **Jose María Morales Miñarro** - [https://github.com/jmm497](https://github.com/jmm497)
 * **Alonso Bravo** -  [https://github.com/dogudo](https://github.com/dogudo)
-
+ç
 # Disclaimer
 
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
