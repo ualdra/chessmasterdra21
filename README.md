@@ -2,6 +2,7 @@
 Collective project where the knowledge acquired in the subject will be put into practice, taking as an example chess data from multiple sources - Rapid Application Development 2021 UAL.
 
 ## Collaborators
+
 * **Manel Mena** -  [https://github.com/manelme](https://github.com/manelme)
 * **Daniel Martínez** -  [https://github.com/daniporre](https://github.com/daniporre)
 * **Alejo Martín Arias Filippo** -  [https://github.com/alejomaf](https://github.com/alejomaf)
@@ -15,6 +16,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Leandro Nicolás Ortega Ponce** -  [https://github.com/nicoop98](https://github.com/nicoop98)
 * **Ousama Dahbi Sebbaghi** - [https://github.com/ods883](https://github.com/ods883)
 * **Francisco Javier Hernández Montoya** - [https://github.com/fhm850](https://github.com/fhm850).
+* **David Martinez Jimenez** - [https://github.com/dmj619]
 
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
