@@ -14,7 +14,9 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Tesifón Robles Marín** -  [https://github.com/trm187](https://github.com/trm187)
 * **Leandro Nicolás Ortega Ponce** -  [https://github.com/nicoop98](https://github.com/nicoop98)
 * **Ousama Dahbi Sebbaghi** - [https://github.com/ods883](https://github.com/ods883)
+* **Francisco Javier Hernández Montoya** - [https://github.com/fhm850](https://github.com/fhm850)
 * **Juan Pablo Grosso Tarazaga** -  [https://github.com/jgt627](https://github.com/jgt627)
+
 
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
