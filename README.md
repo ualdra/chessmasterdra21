@@ -19,6 +19,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Sergio Vera** -  [https://github.com/vsergio011](https://github.com/vsergio011).
 * **Francisco Javier Hernández Montoya** - [https://github.com/fhm850](https://github.com/fhm850)
 * **David Martinez Jimenez** - [https://github.com/dmj619](https://github.com/dmj619)
+* **Juan Pablo Grosso Tarazaga** -  [https://github.com/jgt627](https://github.com/jgt627)
 * **Daniel Ortega Rubio** - [https://github.com/Dor494](https://github.com/Dor494)
 * **Ramón Ramos Tristán** - [https://github.com/rtyui5](https://github.com/rtyui5)
 
