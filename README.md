@@ -16,7 +16,10 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Leandro Nicolás Ortega Ponce** -  [https://github.com/nicoop98](https://github.com/nicoop98)
 * **Ousama Dahbi Sebbaghi** - [https://github.com/ods883](https://github.com/ods883)
 * **Sergio Vera** -  [https://github.com/vsergio011](https://github.com/vsergio011).
+* **Francisco Javier Hernández Montoya** - [https://github.com/fhm850](https://github.com/fhm850)
+* **David Martinez Jimenez** - [https://github.com/dmj619](https://github.com/dmj619)
+* **Daniel Ortega Rubio** - [https://github.com/Dor494](https://github.com/Dor494)
+* **Ramón Ramos Tristán** - [https://github.com/rtyui5](https://github.com/rtyui5)
+
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
-
-Date: 28/01/2021
