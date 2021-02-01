@@ -17,6 +17,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Tesifón Robles Marín** -  [https://github.com/trm187](https://github.com/trm187)
 * **Leandro Nicolás Ortega Ponce** -  [https://github.com/nicoop98](https://github.com/nicoop98)
 * **Ousama Dahbi Sebbaghi** - [https://github.com/ods883](https://github.com/ods883)
+* **Alonso Bravo** -  [https://github.com/dogudo](https://github.com/dogudo)
 * **Sergio Vera** -  [https://github.com/vsergio011](https://github.com/vsergio011).
 * **Francisco Javier Hernández Montoya** - [https://github.com/fhm850](https://github.com/fhm850)
 * **David Martinez Jimenez** - [https://github.com/dmj619](https://github.com/dmj619)
