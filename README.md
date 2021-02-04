@@ -27,6 +27,7 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Daniel Ortega Rubio** - [https://github.com/Dor494](https://github.com/Dor494)
 * **Ramón Ramos Tristán** - [https://github.com/rtyui5](https://github.com/rtyui5)
 * **Alberto Ángel Fuentes Funes** - [https://github.com/21albertoff](https://github.com/21albertoff)
+* **Francisco José Martínez Simón** - [https://github.com/fms528](https://github.com/fms528)
 
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
