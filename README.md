@@ -28,6 +28,6 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Ramón Ramos Tristán** - [https://github.com/rtyui5](https://github.com/rtyui5)
 * **Alberto Ángel Fuentes Funes** - [https://github.com/21albertoff](https://github.com/21albertoff)
 * **Francisco José Martínez Simón** - [https://github.com/fms528](https://github.com/fms528)
-
+* **Marius Cosmin Magurean** - [https://github.com/MM-Cosmin](https://github.com/MM-Cosmin)
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
