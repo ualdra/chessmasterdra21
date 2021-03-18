@@ -30,5 +30,6 @@ Collective project where the knowledge acquired in the subject will be put into 
 * **Francisco José Martínez Simón** - [https://github.com/fms528](https://github.com/fms528)
 * **Marius Cosmin Magurean** - [https://github.com/MM-Cosmin](https://github.com/MM-Cosmin)
 * **Juan de Dios Valverde Herrera** - [https://github.com/juandyvalverde](https://github.com/juandyvalverde)
+* **Cristian Alvarez Hossein** - [https://github.com/cah758](https://github.com/cah758)
 ## Disclaimer
 Chess Master DRA21 isn’t endorsed by any private chess organization. Any trademarks or assets used in this project will be added in this disclaimer.
