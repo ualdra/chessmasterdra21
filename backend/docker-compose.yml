@@ -12,6 +12,8 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: chessDRA21
       MYSQL_DATABASE: chessDB
+    ports:
+      - 3306:3306
 
   adminer:
       depends_on:
