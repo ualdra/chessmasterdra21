@@ -5,7 +5,7 @@ In this opening, one side tries to avoid playing pawns on the center, not giving
 oponent, forcing them to defend or move forward in a early fase of the opening, so it tries to weaken the oponent acquiring advantage. This is a sharp opening, but due to it's 
 restrcited play, it is a play little seen on tournaments.
 
-Atributes
+Atributes "/n"
 NAME --> Opening name
 ECO --> The B means it is a semi-open opening and the numbers 02 to 05 represents its the Alekhine Defense opening.
 FEN --> Forsyth-Edwards Notation --> Describes a Chess Position. It is an one-line ASCII-string.
@@ -32,7 +32,7 @@ It follows the same nomenclature as in fen, but all the pieces are in uppercase 
 After this we gonna show some pictures from differents plays and one 
 play with a error
 
-**Normal Play**
+**Normal Play**"/n"
 {
     "name": "Alekhine Defense",
     "eco": "B02",
