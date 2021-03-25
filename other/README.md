@@ -43,7 +43,7 @@ Here is an example of a movement with the sucessive plays:
 }
 ```
 
-![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%201.png)
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Plays/Jugada%201.png)
 
 ```Javascript
 {
@@ -54,7 +54,7 @@ Here is an example of a movement with the sucessive plays:
 }
 ```
 
-![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%202.png)
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Plays/Jugada%202.png)
 
 ```Javascript
 {
@@ -65,7 +65,7 @@ Here is an example of a movement with the sucessive plays:
 }
 ```
 
-![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%203.png)
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Plays/Jugada%203.png)
 
 ```Javascript
 {
@@ -76,7 +76,7 @@ Here is an example of a movement with the sucessive plays:
 }
 ```
 
-![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%204.png)
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Plays/Jugada%204.png)
 
 ### Error play
 ```Javascript
@@ -87,5 +87,5 @@ Here is an example of a movement with the sucessive plays:
     "moves": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. h3 Bg7 8. Nf3 O-O 9. Be2 Nc6 10. O-O Bf5 11. Bf4"
 }
 ```
-![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%20Error.png)
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Plays/Jugada%20Error.png)
 
