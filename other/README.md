@@ -37,6 +37,7 @@ play with a error
     "eco": "B02",
     "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq",
     "moves": "1. e4 Nf6"
-  },
+},
 
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%201.png)
 
