@@ -38,15 +38,12 @@ services:
     volumes:
           - "/etc/localtime:/etc/localtime:ro"
           - "/etc/timezone:/etc/timezone:ro"
-          - "mosquitto-config:/opt/mosquitto/config"
-          - "mosquitto-data:/opt/mosquitto/data"
-          - "mosquitto-log:/opt/mosquitto/log"
+          - "./mosquitto-config:/mosquitto/config"
+          - "./mosquitto-data:/mosquitto/data"
+          - "./mosquitto-log:/mosquitto/log"
 
   
 volumes:
   db_data:
-  mosquitto-config:
-  mosquitto-data:
-  mosquitto-log:
-
+ 
 
