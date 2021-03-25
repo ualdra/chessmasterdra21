@@ -76,5 +76,6 @@ play with a error
     "fen": "r2q1rk1/pp2ppbp/1nnp2p1/5b2/2PP1B2/2N2N1P/PP2BPP1/R2Q1RK1 b -",
     "moves": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. h3 Bg7 8. Nf3 O-O 9. Be2 Nc6 10. O-O Bf5 11. Bf4"
 },
+
 ![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%20Error.png)
 
