@@ -32,6 +32,7 @@ It follows the same nomenclature as in fen, but all the pieces are in uppercase 
 After this we gonna show some pictures from differents plays and one 
 play with a error
 
+**Normal Play**
 {
     "name": "Alekhine Defense",
     "eco": "B02",
@@ -40,4 +41,40 @@ play with a error
 },
 
 ![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%201.png)
+
+{
+    "name": "Alekhine Defense, 2. e5 Nd5 3. d4",
+    "eco": "B03",
+    "fen": "rnbqkb1r/pppppppp/8/3nP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq",
+    "moves": "1. e4 Nf6 2. e5 Nd5 3. d4"
+},
+
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%202.png)
+
+{
+    "name": "Alekhine Defense, 2. e5 Nd5 3. d4 d6",
+    "eco": "B03",
+    "fen": "rnbqkb1r/ppp1pppp/3p4/3nP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq",
+    "moves": "1. e4 Nf6 2. e5 Nd5 3. d4 d6"
+},
+
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%203.png)
+
+{
+    "name": "Alekhine Defense: Balogh Variation",
+    "eco": "B03",
+    "fen": "rnbqkb1r/ppp1pppp/3p4/3nP3/2BP4/8/PPP2PPP/RNBQK1NR b KQkq",
+    "moves": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Bc4"
+},
+
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%204.png)
+
+**Error play**
+{
+    "name": "Alekhine Defense: Exchange Variation, Karpov Variation",
+    "eco": "B03",
+    "fen": "r2q1rk1/pp2ppbp/1nnp2p1/5b2/2PP1B2/2N2N1P/PP2BPP1/R2Q1RK1 b -",
+    "moves": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. h3 Bg7 8. Nf3 O-O 9. Be2 Nc6 10. O-O Bf5 11. Bf4"
+},
+![alt text](https://github.com/ods883/chessmasterdra21/blob/main/other/Jugadas/Jugada%20Error.png)
 
