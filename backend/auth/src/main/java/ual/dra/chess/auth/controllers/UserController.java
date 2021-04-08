@@ -46,7 +46,7 @@ public class UserController {
   public void setToken(String userName, String password) {
     var body = HttpClientHelpers.get(BASE_URL + "users?name=" + userName + "&password=" + password).body();
     int start = body.indexOf("\"token\": ") + 9;
-    token = body.substring(start, start + 43);
+    token = body.substring(start, start + 64);
   }
 
   // Delete user record

@@ -12,6 +12,7 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: chessDRA21
       MYSQL_DATABASE: chessDB
+      MYSQL_ROOT_HOST: '%'
     ports:
       - 3306:3306
 
@@ -35,8 +36,6 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
-
-
     volumes:
           - "/etc/localtime:/etc/localtime:ro"
           - "/etc/timezone:/etc/timezone:ro"
@@ -44,8 +43,19 @@ services:
           - "./mosquitto-data:/mosquitto/data"
           - "./mosquitto-log:/mosquitto/log"
 
+  rails:
+    image: jps105/rvm
+    depends_on:
+      - db
+    links:
+      - "db:database"
+    volumes:
+      - ../Oauth2Server:/usr/src
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    command: bash -l -c "cd /usr/src && bundle install && rails db:create && rails db:migrate && rails s -b 0.0.0.0 -p 3000"
   
 volumes:
   db_data:
- 
-
