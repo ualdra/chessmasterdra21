@@ -2,6 +2,7 @@ package ual.dra.chess.auth.controllers;
 
 import java.util.HashMap;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -43,6 +44,7 @@ public class UserController {
   }
 
   // Get and set the user token
+  @GetMapping
   public void setToken(String userName, String password) {
     var body = HttpClientHelpers.get(BASE_URL + "users?name=" + userName + "&password=" + password).body();
     int start = body.indexOf("\"token\": ") + 9;
@@ -50,7 +52,6 @@ public class UserController {
   }
 
   // Delete user record
-  @PostMapping
   @DeleteMapping("/{userName}")
   public ResponseEntity<String> deleteUser(String userName) {
     try {
