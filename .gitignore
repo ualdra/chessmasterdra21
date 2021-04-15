@@ -202,3 +202,4 @@ backend/Oauth2Server/node_modules
 backend/Oauth2Server/yarn-error.log
 backend/Oauth2Server/yarn-debug.log*
 backend/Oauth2Server/.yarn-integrity
+*.lock
