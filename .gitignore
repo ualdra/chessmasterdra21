@@ -203,3 +203,4 @@ backend/Oauth2Server/yarn-error.log
 backend/Oauth2Server/yarn-debug.log*
 backend/Oauth2Server/.yarn-integrity
 backend/Oauth2Server/*.lock
+backend/Oauth2Server/public/*
