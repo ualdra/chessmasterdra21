@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const puppeteer = require('puppeteer');
 const fetch = require('node-fetch');
+const axios = require('axios')
 
 async function getSimplePage(webpage){
 
@@ -31,7 +32,23 @@ async function init(){
 	 elo=elo.slice(0,elo.length-1)
 	datos={Posicion:posicion,Nombre:nombre,href:"https://es.wikipedia.org"+href,bandera:"https:"+bandera,pais:pais,elo:elo}
 	filas.push(datos)
-	console.log(filas[i-2])   
+	//console.log(filas[i-2])   
+	axios
+  .post('http://localhost:3400/api/jugadors', {
+    "nombre":datos.Nombre,
+    "href":datos.href,
+    "bandera":datos.bandera,
+    "pais":datos.pais,
+    "elo":datos.elo,
+    "posicion":datos.Posicion
+  })
+  .then(res => {
+    console.log(`statusCode: ${res.statusCode}`)
+    console.log(res)
+  })
+  .catch(error => {
+    console.error(error)
+  })
  }
 }
 init()
