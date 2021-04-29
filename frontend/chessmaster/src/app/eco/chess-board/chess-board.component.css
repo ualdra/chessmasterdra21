@@ -1,0 +1,13 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+   
+}
+.pair{
+    height: 5vw;
+    width: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}

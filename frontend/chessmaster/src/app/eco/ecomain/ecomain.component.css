@@ -1,0 +1,19 @@
+.container{
+    display:grid;
+    padding: 40px;
+    grid-template-areas: 'search search'
+    'chessboard resumen';
+    place-items: center;
+}
+
+app-eco100search {
+    grid-area: search;
+}
+
+app-chessboard {
+    grid-area: chessboard;
+}
+
+app-ecoresumen{
+    grid-area: resumen;
+}

@@ -1,0 +1,14 @@
+<div class="chessboard" *ngFor = "let columna of columnas">
+
+    <div class="pair" *ngFor = "let columna of columnas">
+        <app-chesspositionwhite></app-chesspositionwhite>
+        <app-chesspositionblack [piece]="Kb"></app-chesspositionblack>
+    </div>
+
+    <div class="pair" *ngFor = "let columna of columnas"> 
+        <app-chesspositionblack></app-chesspositionblack>
+        <app-chesspositionwhite></app-chesspositionwhite>
+    </div>
+
+</div>
+

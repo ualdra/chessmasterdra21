@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-authmain',
@@ -7,9 +9,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthmainComponent implements OnInit {
 
-  constructor() { }
+  username: String;
+  password: String;
+  repassword: String;
+
+
+  constructor(
+    private route: ActivatedRoute,
+    private location: Location
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  validate(){
+    console.log("username: " + this.username);
+    console.log("password: " + this.password);
+
+  }
+
+  register(){
+    console.log("username: " + this.username);
+    console.log("password: " + this.password);
+
   }
 
 }

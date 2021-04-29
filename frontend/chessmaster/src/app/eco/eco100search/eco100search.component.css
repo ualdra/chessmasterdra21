@@ -1,0 +1,16 @@
+.searchInputEco{
+    border-radius: 2px;
+    padding:5px;
+    width:20vw;
+    border:1px solid #ccc;
+}
+
+.searchButton{
+    padding:5px 15px;
+    border-radius: 2px;
+    border:1px solid #ccb;
+}   
+
+*{
+    color:#696969;
+}
