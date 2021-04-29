@@ -16,5 +16,6 @@ import { AuthService } from './auth.service'
     RouterModule,
     FormsModule
   ]
+
 })
 export class AuthModule { }
