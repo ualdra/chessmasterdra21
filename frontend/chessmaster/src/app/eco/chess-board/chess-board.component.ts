@@ -9,7 +9,7 @@ import { ChesspositionwhiteComponent } from '../chesspositionwhite/chessposition
 })
 export class ChessBoardComponent implements OnInit {
   
-  columnas=[1,2,3,4];
+  columnas=[1,2,3,4,5,6,7,8];
 
 
   constructor() { }

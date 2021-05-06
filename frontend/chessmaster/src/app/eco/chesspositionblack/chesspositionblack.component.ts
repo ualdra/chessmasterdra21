@@ -8,6 +8,8 @@ import { Component, OnInit, Input, OnChanges } from '@angular/core';
 export class ChesspositionblackComponent implements OnInit {
 
   @Input() piece: string;
+  @Input() position_i;
+  @Input() position_j;
 
   constructor() { }
 
@@ -23,4 +25,7 @@ export class ChesspositionblackComponent implements OnInit {
     }
   }
 
+  clickCasilla():void{
+    console.log(this.position_i+","+this.position_j);
+  }
 }

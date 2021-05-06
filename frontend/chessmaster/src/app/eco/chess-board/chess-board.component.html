@@ -1,14 +1,10 @@
-<div class="chessboard" *ngFor = "let columna of columnas">
+<div class="chessboard">
 
-    <div class="pair" *ngFor = "let columna of columnas">
-        <app-chesspositionwhite></app-chesspositionwhite>
-        <app-chesspositionblack [piece]="Kb"></app-chesspositionblack>
+    <div *ngFor = "let columna of columnas; let i = index" [attr.data-index]="i">
+        <div *ngFor = "let fila of columnas; let j = index" [attr.data-index]="j">
+            <app-chesspositionwhite *ngIf="(i%2==0&&j%2==0)||(i%2==1&&j%2==1)" [piece]="Kb" [position_i]="j" [position_j]="i"></app-chesspositionwhite>
+            <app-chesspositionblack *ngIf="(i%2==0&&j%2==1)||(i%2==1&&j%2==0)" [piece]="Kb" [position_i]="j" [position_j]="i"></app-chesspositionblack>
+        </div>
     </div>
-
-    <div class="pair" *ngFor = "let columna of columnas"> 
-        <app-chesspositionblack></app-chesspositionblack>
-        <app-chesspositionwhite></app-chesspositionwhite>
-    </div>
-
 </div>
 
