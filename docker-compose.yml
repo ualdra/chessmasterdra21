@@ -16,7 +16,6 @@ services:
   adminer:
       depends_on:
         - db
-
       image: adminer
       restart: unless-stopped
       ports:
@@ -33,8 +32,6 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
-
-
     volumes:
           - "/etc/localtime:/etc/localtime:ro"
           - "/etc/timezone:/etc/timezone:ro"
@@ -42,7 +39,6 @@ services:
           - "mosquitto-data:/opt/mosquitto/data"
           - "mosquitto-log:/opt/mosquitto/log"
 
-  
 volumes:
   db_data:
   mosquitto-config:
