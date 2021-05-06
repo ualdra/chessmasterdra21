@@ -1,0 +1,24 @@
+<p>top100main works!</p>
+<h2>Top ajedrecistas</h2>
+
+<div class="ajedrecistas-menu">
+  <a *ngFor="let ajedrecista of ajedrecistas" [class.selected]="ajedrecista === selectedAjedrecista" (click)="onSelect(ajedrecista)">
+    <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
+    <br>
+    {{ajedrecista.name}}
+  </a>
+</div>
+
+<div *ngIf="selectedAjedrecista" class="contenido">
+    <div class="details">
+    <div><span>id: </span>{{selectedAjedrecista.id}}</div>
+    <div>
+      <label for="ajedrecista-name">Nombre: </label>
+       {{selectedAjedrecista.name}}
+      <br> 
+      <label for="ajedrecista-elo"> Elo: </label>
+      {{selectedAjedrecista.elo}}
+    </div>
+    </div>
+  
+  </div>

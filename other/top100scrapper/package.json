@@ -1,0 +1,23 @@
+{
+  "name": "simple-scrapper",
+  "version": "1.0.0",
+  "description": "Simple web scrapping example",
+  "main": "ajedrez.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "Scrapper",
+    "Tutorial"
+  ],
+  "author": "Manel Mena",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^7.1.0"
+  }
+}

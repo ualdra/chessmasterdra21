@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="center">
+        <ng-container *ngIf="true;  then login; else register">
+        </ng-container>
+
+        <ng-template #login>
+            <span>Login</span>
+            <input id="username" [(ngModel)]="username" placeholder="User name">
+            <input id="password" [(ngModel)]="password" placeholder="Password" type="password">
+            <button (click)="validate()">Validate</button>
+            <p>If you don't have an account please register <a href="">here</a></p>
+        </ng-template>
+        
+        <ng-template #register>
+            <span>Register</span>
+            <input id="username" [(ngModel)]="username" placeholder="User name">
+            <input id="password" [(ngModel)]="password" placeholder="Password" type="password">
+            <input id="password" [(ngModel)]="repassword" placeholder="Retype Password" type="repassword">
+            <button (click)="validate()">Register</button>
+            <a href="">back</a>
+        </ng-template>
+    </div>
+</div>
+

@@ -12,6 +12,9 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: chessDRA21
       MYSQL_DATABASE: chessDB
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - 3306:3306
 
   adminer:
       depends_on:
@@ -35,14 +38,30 @@ services:
     volumes:
           - "/etc/localtime:/etc/localtime:ro"
           - "/etc/timezone:/etc/timezone:ro"
+<<<<<<< HEAD:docker-compose.yml
           - "mosquitto-config:/opt/mosquitto/config"
           - "mosquitto-data:/opt/mosquitto/data"
           - "mosquitto-log:/opt/mosquitto/log"
 
+=======
+          - "./mosquitto-config:/mosquitto/config"
+          - "./mosquitto-data:/mosquitto/data"
+          - "./mosquitto-log:/mosquitto/log"
+
+  rails:
+    image: jps105/rvm
+    depends_on:
+      - db
+    links:
+      - "db:database"
+    volumes:
+      - ../Oauth2Server:/usr/src
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    command: bash -l -c "cd /usr/src && bundle install && rails db:create && rails db:migrate && rails s -b 0.0.0.0 -p 3000"
+  
+>>>>>>> 2d55950e424deb06acdf48b07d10e4442b719b2d:backend/infrastructure/docker-compose.yml
 volumes:
   db_data:
-  mosquitto-config:
-  mosquitto-data:
-  mosquitto-log:
-
-
