@@ -38,12 +38,6 @@ services:
     volumes:
           - "/etc/localtime:/etc/localtime:ro"
           - "/etc/timezone:/etc/timezone:ro"
-<<<<<<< HEAD:docker-compose.yml
-          - "mosquitto-config:/opt/mosquitto/config"
-          - "mosquitto-data:/opt/mosquitto/data"
-          - "mosquitto-log:/opt/mosquitto/log"
-
-=======
           - "./mosquitto-config:/mosquitto/config"
           - "./mosquitto-data:/mosquitto/data"
           - "./mosquitto-log:/mosquitto/log"
@@ -61,7 +55,6 @@ services:
     stdin_open: true
     tty: true
     command: bash -l -c "cd /usr/src && bundle install && rails db:create && rails db:migrate && rails s -b 0.0.0.0 -p 3000"
-  
->>>>>>> 2d55950e424deb06acdf48b07d10e4442b719b2d:backend/infrastructure/docker-compose.yml
+
 volumes:
   db_data:

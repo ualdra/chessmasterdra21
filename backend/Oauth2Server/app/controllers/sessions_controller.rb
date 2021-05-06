@@ -1,7 +1,6 @@
-class LoginsController < ApplicationController
-    skip_before_action :verify_authenticity_token
+class SessionsController < ApplicationController
 
-    def create
+    def login
         user = User.find_by_name(params[:name]) if params[:name].present? || params[:password].present?
         user&.refresh_token
         
@@ -11,4 +10,15 @@ class LoginsController < ApplicationController
             render :json => nil
         end
     end
+
+    def session
+        user = User.find_by_token(params[:token]) if params[:token].present?
+        
+        if user.present?
+            render :json => {"token" => user.token}
+        elsif
+            render :json => nil
+        end
+    end
+
 end

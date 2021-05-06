@@ -1,9 +1,8 @@
-class User < ActiveRecord::Base
+class User < ApplicationRecord
     before_save :refresh_token
     validates :name, presence: true
     
     has_secure_password
-
 
     def refresh_token
         token = ""
@@ -15,5 +14,4 @@ class User < ActiveRecord::Base
 
          self.token = token
     end
-
 end
