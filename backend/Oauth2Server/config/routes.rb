@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  match 'login', to: 'sessions#login', via: [:post]
+  match 'session', to: 'sessions#session', via: [:post]
+  match 'users', to: 'users#create', via: [:post]
+  match 'users', to: 'users#index', via: [:get]
 end
